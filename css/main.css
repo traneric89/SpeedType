@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo|Source+Code+Pro&display=swap');
+
+.container{
+    padding:0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+}
+
+
+#slogan{
+    font-family: 'Source Code Pro', monospace;
+    background-color: rgb(221, 60, 60);
+    margin-top: -2em;
+    padding-bottom: 1em;
+}
+
+#title{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 3em;
+    background-color: rgb(221, 60, 60);
+    margin-top: 0em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#seconds{
+    color: rgb(45, 194, 45);
+}
+
+body{
+    background-color: rgb(125, 129, 151);
+}
+
+#current-word{
+    font-size: 4em;
+    margin: 0.3em 0;
+}
+
+#word-input{
+    width: 50%;
+    padding: 0.5em;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: rgb(125,129,151);
+}
+
+#message{
+    font-size: 2.5em;
+    margin-top: -0.05em;
+    margin-bottom: -0.5em;
+}
+
+.score-style{
+    margin-top: -1em;
+}
+
+p{
+    margin: -1em 7em 0 7em;
+}
+

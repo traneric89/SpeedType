@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Typing Game</title>
+
+</head>
+<body class="container">
+    <header>
+        <h1 id="title">SpeedType</h1>
+        <h2 id="slogan">How many words can you get correct?</h2>
+    </header>
+    <div>
+        <h2>Type the word within <span id="seconds"> 5 </span> seconds!</h2>
+        <h1 id="current-word">hello</h1>
+        <!--Word input from user-->
+        <input type="text" id="word-input" placeholder="Start typing..." autofocus>
+        <!--Message depending on correct or incorrect word input-->
+        <h3 id="message"></h3>
+
+        <!--
+            To keep track of time and score of game
+        -->
+        <div>
+            <div>
+                <h2 class=time-style>Time left: <span id="time" class="time-style">0</span></h2>
+            </div>
+            <div>
+                <h2 class="score-style">Score: <span id="score" class="score-style">0</span></h2>
+            </div>
+        </div>
+
+        <!--
+            Instructions to play the game
+        -->
+        <div class="instructions">
+            <h4>Instructions:</h4>
+            <p>Type displayed word within time shown to score a point. To play again, simply type the displayed word.</p>
+        </div>
+    </div>
+    <script src=js/main.js></script>
+</body>
+</html>
