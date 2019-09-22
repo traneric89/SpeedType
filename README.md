@@ -1,4 +1,4 @@
-#SpeedType
+# SpeedType
 
 Browser game to test typing skills. 
 
