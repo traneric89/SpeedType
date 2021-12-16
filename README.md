@@ -7,3 +7,5 @@ To start game:
 
 To increase score: 
 - Type displayed word within given time. 
+
+:rocket: [ Live Demo!](https://traneric89.github.io/SpeedType/)
